@@ -16,7 +16,7 @@ We want to find the row Si for which the above probability is maximim. From the 
              
  Every row is equally likely and hence P(S) is same for all rows. Alos, P(W) is same for all columns, so we can ignore it for agrmax calculation. Hence, for simple case, we are considering max gradient row at every column.
  
- ![alt text](https://github.iu.edu/cs-b551-fa2019/nibafna-nrpai-sjejurka-a2/blob/master/images/Blue.jpeg)
+ ![alt text](https://github.com/nehapai23/AI-Problem--Horizon-Detection-Using-Bayes-Net-Inference/blob/master/mountain1/output_simple.jpg)
  
  **Case 2:**
  
@@ -51,9 +51,9 @@ For the above transission probabilties, our algorithm worked best with transmiss
 However, in this approach since we are starting with max gradient initial probability , it didnt worked accurately for all images.
 To overcome this, we implemeneted third case.
 
-![alt text](https://github.iu.edu/cs-b551-fa2019/nibafna-nrpai-sjejurka-a2/blob/master/images/Red.jpeg)
+![alt text](https://github.com/nehapai23/AI-Problem--Horizon-Detection-Using-Bayes-Net-Inference/blob/master/mountain1/output_map.jpg)
 
 **CASE 3:**
 
 In this case, we take feedback from human and ask them to input the row and column co-ordinate. We start with these co-ordiante, and set its probabiltiy as highest. We then move forward and backward columnwise.
-![alt text](https://github.iu.edu/cs-b551-fa2019/nibafna-nrpai-sjejurka-a2/blob/master/images/green.jpeg)
+![alt text](https://github.com/nehapai23/AI-Problem--Horizon-Detection-Using-Bayes-Net-Inference/blob/master/mountain1/output_human.jpeg)
