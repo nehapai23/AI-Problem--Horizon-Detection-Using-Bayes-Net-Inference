@@ -1,7 +1,7 @@
 # AI-Problem--Horizon-Detection-Using-Bayes-Net-Inference
 Detecting horizons in images using inference on HMM using Viterbi algorithm
 
-**CASE 1:**
+**Method 1:**
 For this, we want to solve Bayes net as given
 
     si* = argmax P(Si = Si | W1, . . .,Wm)
@@ -18,7 +18,7 @@ We want to find the row Si for which the above probability is maximim. From the 
  
  ![alt text](https://github.com/nehapai23/AI-Problem--Horizon-Detection-Using-Bayes-Net-Inference/blob/master/mountain1/output_simple.jpg)
  
- **Case 2:**
+ **Method 2:**
  
 Using the Viterbi algorithm to solve for the maximum a posterior estimate with below formula.
 
@@ -53,7 +53,7 @@ To overcome this, we implemeneted third case.
 
 ![alt text](https://github.com/nehapai23/AI-Problem--Horizon-Detection-Using-Bayes-Net-Inference/blob/master/mountain1/output_map.jpg)
 
-**CASE 3:**
+**Method 3:**
 
 In this case, we take feedback from human and ask them to input the row and column co-ordinate. We start with these co-ordiante, and set its probabiltiy as highest. We then move forward and backward columnwise.
 ![alt text](https://github.com/nehapai23/AI-Problem--Horizon-Detection-Using-Bayes-Net-Inference/blob/master/mountain1/output_human.jpeg)
